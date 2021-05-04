@@ -96,11 +96,12 @@ class HomeActivity : AppCompatActivity() {
         debugSettingsFragment.show(supportFragmentManager, TAG)
     }
 
+    // TODO:
     private fun joinMeeting() {
 //         meetingID = meetingEditText?.text.toString().trim().replace("\\s+".toRegex(), "+")
-        meetingID = "acbf2db1-079f-4710-a9cc-4538f4b40d28"
+        meetingID = "9648007595"
 //         yourName = nameEditText?.text.toString().trim().replace("\\s+".toRegex(), "+")
-        yourName = "Hello Mohit"
+        yourName = "Hello Shivam"
         testUrl = getTestUrl()
 
         if (meetingID.isNullOrBlank()) {
